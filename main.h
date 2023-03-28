@@ -73,8 +73,6 @@ typedef struct printHandler
 /* utils.c */
 int _strlen(const char *);
 int print(char *);
-char *itoa(long int, int);
-
 
 /* print_nums */
 int print_int(va_list l, flags_t *f);
