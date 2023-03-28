@@ -73,6 +73,9 @@ typedef struct printHandler
 /* utils.c */
 int _strlen(const char *);
 
+/* get_precision */
+int get_precision(const char *format, int *i, va_list list);
+
 /* print_nums */
 int print_int(va_list l, flags_t *f);
 void print_number(int n);
