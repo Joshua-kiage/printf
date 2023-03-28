@@ -1,0 +1,22 @@
+.TH _PRINTF 3 2023-03-28 Linux "Linux Programmer's Manual"
+
+"l" length modifier:
+
+Use "l" to specify that the argument to the conversion specifier is a "long int" or "long double" data type.
+Conversion specifiers that can use "l" are: d, i, u, o, x, X
+Examples:
+%ld: prints a "long int" as a decimal number.
+%lx: prints a "long int" as a hexadecimal number in lowercase.
+%Le: prints a "long double" in scientific notation with an uppercase "E".
+"h" length modifier:
+
+Use "h" to specify that the argument to the conversion specifier is a "short int" data type.
+Conversion specifiers that can use "h" are: d, i, u, o, x, X
+Examples:
+%hd: prints a "short int" as a decimal number.
+%ho: prints a "short int" as an octal number.
+%hx: prints a "short int" as a hexadecimal number in lowercase.
+Note: Some conversion specifiers may also support other length modifiers such as "hh", "ll", or "z". Please refer to the specific conversion specifier's documentation for details.
+
+.SH AUTHORS
+Joshua Kiage & Patricia Mkoji
